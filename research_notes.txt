@@ -1,0 +1,21 @@
+
+Rules:
+  |
+  -> 1 person can have 4 active room bookings at once
+    |
+    -> But only 2 per day
+  |
+  -> A single room booking can be 3 hours
+  |
+  -> Rooms can only be booked 13 days in advance (presumably)
+      
+
+Asumptions:
+  -> The room needs to be booked 6 hours a day
+  -> 6 people can book rooms
+  -> Weekends will not be booked
+  
+Conclusions:
+  -> We can book the room for 12 days
+  -> If we don't book weekends we can always book on the day that rooms become available (13 days in advance)
+  
